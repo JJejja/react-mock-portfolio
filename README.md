@@ -4,6 +4,13 @@ A modern portfolio built with React.js and styled using Chakra UI. This project 
 
 ---
 
+## 🚀 Live Demo
+
+Check out the live version of the app here:  
+[**Live Demo**](https://jjejja.github.io/react-mock-portfolio/)
+
+---
+
 ## 📋 Features
 
 ### 🖥️ **Landing Section**
@@ -63,3 +70,14 @@ _Showcase of featured projects._
 
 ![Contact Form](./screenshots/contact.png)
 _Functional contact form with validation._
+
+---
+
+## 📧 Contact
+
+Feel free to reach out via:
+
+- **GitHub**: [https://github.com/JJejja](https://github.com/JJejja)
+- **LinkedIn**: [https://www.linkedin.com/in/jennifer-andersson-59b2785b](https://www.linkedin.com/in/jennifer-andersson-59b2785b)
+
+---
