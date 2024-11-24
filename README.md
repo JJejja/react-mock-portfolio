@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# React Mock Portfolio 🎨 💻
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern portfolio built with React.js and styled using Chakra UI. This project showcases featured projects, a functional contact form, and smooth navigation—all designed to highlight my skills in frontend development and UX design.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📋 Features
 
-### `npm start`
+### 🖥️ **Landing Section**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- A sleek introduction with personalized branding.
+- Built with Chakra UI's customizable components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🧭 **Header Navigation**
 
-### `npm test`
+- Smooth scrolling navigation links for an engaging user experience.
+- Dynamic visibility: Header hides while scrolling down and reappears when scrolling up.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🚀 **Projects Section**
 
-### `npm run build`
+- Highlights featured projects with detailed descriptions and images.
+- Built using reusable and modular `Card` components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📩 **Contact Me Form**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Fully functional form with:
+  - **Live validation** using Formik and Yup.
+  - Feedback alerts integrated via the Context API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ⚡ **Dynamic Alerts**
 
-### `npm run eject`
+- Provides success or error feedback for form submissions.
+- Implements state management using Context API.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **React.js**: Leveraging hooks for state and effects.
+- **Chakra UI**: For component styling and layout.
+- **Formik & Yup**: Simplifying form handling and validation.
+- **FontAwesome**: Adding polished social media icons.
+- **Context API**: Managing global state for alerts.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🎯 What This Project Demonstrates
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Modern frontend development techniques.
+- Modular and reusable component design.
+- Dynamic feedback mechanisms and form validation.
+- Smooth user navigation and interaction.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📷 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Landing Page](./screenshots/landing.png)
+_Landing page introduction._
 
-### Analyzing the Bundle Size
+![Projects Section](./screenshots/projects.png)
+_Showcase of featured projects._
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Contact Form](./screenshots/contact.png)
+_Functional contact form with validation._
