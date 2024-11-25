@@ -16,7 +16,7 @@ const Footer = () => {
         >
           <VStack>
             <Box>
-              <p className="footer-text">Jennifer • © 2024</p>
+              <p className="footer-text">Alexandra • © 2024</p>
             </Box>
             <Box textAlign={"center"}>
               <p className="footer-text">
