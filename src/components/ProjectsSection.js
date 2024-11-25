@@ -34,7 +34,6 @@ const ProjectsSection = () => {
   return (
     <FullScreenSection
       backgroundColor="#F2F3EC"
-      isLightkBackground
       p={8}
       alignItems="flex-start"
       spacing={8}
