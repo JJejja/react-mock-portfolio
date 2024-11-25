@@ -5,27 +5,27 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "Photo Gallery",
-    description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
-  },
-  {
     title: "React Infinite Scroll",
     description:
       "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land",
     getImageSrc: () => require("../images/photo4.jpg"),
   },
   {
-    title: "Aurobay Car Rental",
+    title: "Event planner",
     description:
-      "A UX project of a car-rental app made in collaboration with Aurobay, enabling employees and guests to find and rent available cars.",
+      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
     getImageSrc: () => require("../images/photo1.jpg"),
   },
   {
-    title: "Apartment Finder",
+    title: "Photo Gallery",
     description:
-      "A UX Case study for an apartment finder app, designed to help users efficiently search for rental properties based on their preferences.",
+      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
+    getImageSrc: () => require("../images/photo3.jpg"),
+  },
+  {
+    title: "React Space",
+    description:
+      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
     getImageSrc: () => require("../images/photo2.jpg"),
   },
 ];

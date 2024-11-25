@@ -20,8 +20,6 @@ import { useAlertContext } from "../context/alertContext";
 const LandingSection = () => {
   const { isLoading, response, submit, resetResponse } = useSubmit();
   const { onOpen } = useAlertContext();
-  const myArray = [];
-  myArray.map((myElements) => {});
 
   const formik = useFormik({
     initialValues: { firstName: "", email: "", type: "hireMe", comment: "" },
@@ -57,7 +55,7 @@ const LandingSection = () => {
       py={16}
       spacing={8}
     >
-      <VStack w="1024px" p={32} alignItems="flex-start">
+      <VStack w="1024px" pr={32} pl={32} alignItems="flex-start">
         <Heading as="h1" id="contactme-section">
           Contact me
         </Heading>
