@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-mock-portfolio/static/css/main.5791e8bb.css",
-    "main.js": "/react-mock-portfolio/static/js/main.5ca362e0.js",
+    "main.js": "/react-mock-portfolio/static/js/main.e5ee0112.js",
     "static/js/453.1fa56f78.chunk.js": "/react-mock-portfolio/static/js/453.1fa56f78.chunk.js",
     "static/media/photo2.jpg": "/react-mock-portfolio/static/media/photo2.06de3a05d3991f4be897.jpg",
     "static/media/photo1.jpg": "/react-mock-portfolio/static/media/photo1.647f0dd6f0c9a5a6e583.jpg",
@@ -9,11 +9,11 @@
     "static/media/photo3.jpg": "/react-mock-portfolio/static/media/photo3.23f8d7033871f5070f9e.jpg",
     "index.html": "/react-mock-portfolio/index.html",
     "main.5791e8bb.css.map": "/react-mock-portfolio/static/css/main.5791e8bb.css.map",
-    "main.5ca362e0.js.map": "/react-mock-portfolio/static/js/main.5ca362e0.js.map",
+    "main.e5ee0112.js.map": "/react-mock-portfolio/static/js/main.e5ee0112.js.map",
     "453.1fa56f78.chunk.js.map": "/react-mock-portfolio/static/js/453.1fa56f78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5791e8bb.css",
-    "static/js/main.5ca362e0.js"
+    "static/js/main.e5ee0112.js"
   ]
 }
