@@ -1,6 +1,6 @@
 # React Mock Portfolio 🎨 💻
 
-A modern portfolio built with React.js and styled using Chakra UI. This project showcases featured projects, a functional contact form, and smooth navigation—all designed to highlight my skills in frontend development and UX design.
+A mock portfolio web app built with React.js and styled using Chakra UI. This project showcases featured projects, a functional contact form, and smooth navigation.
 
 ---
 
@@ -33,6 +33,7 @@ Check out the live version of the app here:
 - Fully functional form with:
   - **Live validation** using Formik and Yup.
   - Feedback alerts integrated via the Context API.
+  - **Simulated API Call**: When the user submits the form, a simulated API call is triggered, randomly returning either a success or error message. This is implemented using a custom hook (`useSubmit`) that simulates a network request with a 50% chance of success or failure.
 
 ### ⚡ **Dynamic Alerts**
 
