@@ -1,6 +1,8 @@
 # React Mock Portfolio 🎨 💻
 
-A mock portfolio web app built with React.js and styled using Chakra UI. This project showcases featured projects, a functional contact form, and smooth navigation.
+A mock portfolio desktop web app built with React.js and styled using Chakra UI. This project showcases featured projects, a functional contact form, and smooth navigation.
+
+**Note:** This app is currently optimized for **desktop** and **tablet** devices. The mobile experience is still in progress.
 
 ---
 
