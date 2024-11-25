@@ -20,20 +20,16 @@ const Footer = () => {
             </Box>
             <Box>
               <p className="footer-text">
-                Photo by{" "}
+                All images sourced from{" "}
                 <a
-                  href="https://unsplash.com/@navidsohrabi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                  href="https://unsplash.com/"
                   style={{ textDecoration: "underline" }}
-                >
-                  Navid Sohrabi
-                </a>{" "}
-                on{" "}
-                <a
-                  href="https://unsplash.com/photos/a-woman-standing-next-to-a-body-of-water-nHnU3NWVYY0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-                  style={{ textDecoration: "underline" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Unsplash
-                </a>
+                </a>{" "}
+                and credited to their respective photographers.
               </p>
             </Box>
           </VStack>
