@@ -1,8 +1,8 @@
 # React Mock Portfolio 🎨 💻
 
-A mock portfolio desktop web app built with React.js and styled using Chakra UI. This project showcases featured projects, a functional contact form, and smooth navigation.
+A mock portfolio web app built with React.js and styled using Chakra UI. This project showcases featured projects, a functional contact form, and smooth navigation.
 
-**Note:** This app is currently optimized for **desktop** and **tablet** devices. The mobile experience is still in progress.
+This is a **responsive web app** designed to adapt seamlessly across **desktop**, **tablet**, and **mobile** devices, ensuring an optimal viewing experience on all screen sizes.
 
 ---
 
@@ -42,6 +42,11 @@ Check out the live version of the app here:
 - Provides success or error feedback for form submissions.
 - Implements state management using Context API.
 
+### 📱 **Responsive Design**
+
+- Fully responsive layout optimized for **desktop**, **tablet**, and **mobile** screens.
+- Automatically adjusts content and navigation for smaller screens to ensure a smooth, user-friendly experience on all devices.
+
 ---
 
 ## 🛠️ Technologies Used
@@ -60,18 +65,19 @@ Check out the live version of the app here:
 - Modular and reusable component design.
 - Dynamic feedback mechanisms and form validation.
 - Smooth user navigation and interaction.
+- **Responsive design** for mobile, tablet, and desktop devices.
 
 ---
 
 ## 📷 Screenshots
 
-![Landing Page](./screenshots/landing.png)
+![Landing Page](./screenshots/landing.png)  
 _Landing page introduction._
 
-![Projects Section](./screenshots/projects.png)
+![Projects Section](./screenshots/projects.png)  
 _Showcase of featured projects._
 
-![Contact Form](./screenshots/contact.png)
+![Contact Form](./screenshots/contact.png)  
 _Functional contact form with validation._
 
 ---
