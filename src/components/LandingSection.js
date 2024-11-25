@@ -5,6 +5,7 @@ import FullScreenSection from "./FullScreenSection";
 const greeting = "Hi, I'm Alexandra!";
 const bio1 = "A frontend developer";
 const bio2 = "specialised in React";
+
 const LandingSection = () => (
   <FullScreenSection
     justifyContent="center"
@@ -12,7 +13,12 @@ const LandingSection = () => (
     backgroundColor="#F7F8F3"
     id="landing-section"
   >
-    <VStack spacing={6}>
+    <VStack
+      spacing={6}
+      w="full"
+      px={{ base: 4, md: 0 }} // Padding for smaller screens
+      textAlign="center" // Center-align text on all screens
+    >
       <VStack spacing={4}>
         <Avatar
           name="Alexandra"
@@ -24,11 +30,11 @@ const LandingSection = () => (
           {greeting}
         </Heading>
       </VStack>
-      <VStack>
-        <Heading size="2xl" fontSize="5xl">
+      <VStack spacing={2}>
+        <Heading size="2xl" fontSize="4xl">
           {bio1}
         </Heading>
-        <Heading size="2xl" fontSize="5xl">
+        <Heading size="2xl" fontSize="4xl">
           {bio2}
         </Heading>
       </VStack>

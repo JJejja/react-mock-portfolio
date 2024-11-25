@@ -38,12 +38,20 @@ const ProjectsSection = () => {
       alignItems="flex-start"
       spacing={8}
     >
-      <Heading as="h1" id="projects-section">
+      <Heading
+        as="h1"
+        id="projects-section"
+        fontSize={{ base: "2xl", md: "4xl" }}
+        textAlign={{ base: "center", md: "left" }}
+      >
         Featured Projects
       </Heading>
       <Box
         display="grid"
-        gridTemplateColumns="repeat(2,minmax(0,1fr))"
+        gridTemplateColumns={{
+          base: "1fr", // Single column for small screens
+          md: "repeat(2, minmax(0, 1fr))", // Two columns for medium screens and up
+        }}
         gridGap={8}
       >
         {projects.map((project) => (

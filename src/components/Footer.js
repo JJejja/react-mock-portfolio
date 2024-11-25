@@ -18,7 +18,7 @@ const Footer = () => {
             <Box>
               <p className="footer-text">Jennifer • © 2024</p>
             </Box>
-            <Box>
+            <Box textAlign={"center"}>
               <p className="footer-text">
                 All images sourced from{" "}
                 <a
